@@ -3,7 +3,6 @@
 // According to the mode, define the type of action.
 import React, { useRef } from 'react';
 import Button from "./ui/Button";
-import { FileUpload, FileDownload } from '@mui/icons-material';
 
 interface NavigationProps {
   children?: React.ReactNode;
