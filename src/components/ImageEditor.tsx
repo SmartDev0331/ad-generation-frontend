@@ -9,7 +9,7 @@ import { useAtom } from "jotai";
 import { srcAtom } from "@/context/srcAtom";
 import { LoadingIcon } from "./LoadingIcon";
 import { resolve } from "path";
-import { storage } from "../components/firebase";
+import { storage } from "./firebase";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const ImageEditor = () => {
