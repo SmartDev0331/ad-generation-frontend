@@ -1,8 +1,6 @@
 // components/ThemeToggle.js  
 'use client'
 import { useEffect, useState } from 'react';
-import LightMode from '@mui/icons-material/LightMode';
-import DarkMode from '@mui/icons-material/DarkMode';
 
 const ThemeToggle = () => {
   const [isDark, setIsDark] = useState(false);
@@ -30,7 +28,7 @@ const ThemeToggle = () => {
       onClick={toggleTheme}
       className="p-2 bg-blue-500 text-white rounded"
     >
-      {isDark ? <LightMode /> : <DarkMode />}
+      {isDark ? "light" : "night"}
     </button>
   );
 };

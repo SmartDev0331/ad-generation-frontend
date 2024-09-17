@@ -3,9 +3,7 @@
 // According to the mode, define the type of action.
 import React, { useRef } from 'react';
 import Button from "./ui/Button";
-import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 import { FileUpload, FileDownload } from '@mui/icons-material';
-import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
 
 interface NavigationProps {
   children?: React.ReactNode;
@@ -36,7 +34,7 @@ const Navigation = ({ onUpload, getImageData, remove_bg }: NavigationProps) => {
   return (
     <div className='flex flex-row justify-between gap-10'>
       <Button onClick={onUploadButtonClick}>
-        <CloudUploadIcon /> File Upload
+        File Upload
         <input
           ref={inputRef}
           type="file"
