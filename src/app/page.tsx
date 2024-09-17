@@ -1,9 +1,5 @@
 import getConfig from 'next/config';
 import Image from 'next/image';
-import UploadFileIcon from '@mui/icons-material/UploadFile';
-import DownloadIcon from '@mui/icons-material/Download';
-import Button from "@mui/material/Button";
-import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import styled from '@emotion/styled/macro';
 import IconButton from '@/components/IconButton';
 import { useRef } from 'react';
