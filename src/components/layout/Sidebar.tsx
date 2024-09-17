@@ -6,7 +6,7 @@ import { sideItemNum } from '@/context/sideItemNum';
 import { srcAtom } from '@/context/srcAtom';
 import DropSet from './Sidebar/DropSet';
 import DropPrompt from './Sidebar/DropPrompt';
-import { removeBackground } from '@/app/api/MoreAction';
+import { removeBackground } from '@/app/api/moreAction';
 import { LoadingIcon } from '../LoadingIcon';
 import { useState } from 'react';
 
