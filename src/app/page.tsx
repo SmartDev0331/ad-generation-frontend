@@ -1,6 +1,5 @@
 import getConfig from 'next/config';
 import Image from 'next/image';
-import styled from '@emotion/styled/macro';
 import IconButton from '@/components/IconButton';
 import { useRef } from 'react';
 import Navigation from '@/components/Navigation';

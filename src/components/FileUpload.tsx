@@ -1,7 +1,6 @@
 'use client'
 import { useRef } from "react";
 import Button from "./ui/Button"
-import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 
 interface FileUploadProps {
   onUploadButtonClick: () => void;
